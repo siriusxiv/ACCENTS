@@ -65,8 +65,8 @@ $wgEmailAuthentication = true;
 $wgDBtype           = "mysql";
 $wgDBserver         = "localhost";
 $wgDBname           = "clubs_cni";
-$wgDBuser           = "cni";
-$wgDBpassword       = "DOFo9WtF";
+$wgDBuser           = "root";
+$wgDBpassword       = "";
 
 # MySQL specific settings
 // pour la gestion multilangues
