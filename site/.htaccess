@@ -1,0 +1,10 @@
+RewriteEngine on
+RewriteRule ^wiki/(mw-)?config/? $0
+RewriteRule ^wiki/images/([^?]*) /w/images/$1
+RewriteRule ^wiki/([^?]*)(?:\?(.*))? /w/index.php?langue=fr&title=$1&$2
+RewriteRule ^wiki/([^?]*) /w/index.php?langue=fr&title=$1
+
+RewriteRule ^wiki_en/(mw-)?config/? $0
+RewriteRule ^wiki_en/images/([^?]*) /w2/images/$1
+RewriteRule ^wiki_en/([^?]*)(?:\?(.*))? /w2/index.php?langue=en&title=$1&$2
+RewriteRule ^wiki_en/([^?]*) /w2/index.php?langue=en&title=$1

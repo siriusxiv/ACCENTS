@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Page en construction | Serveur des élèves de l'Ecole Centrale Nantes</title>
+	</head>
+
+	<body>
+		<table>
+			<tr><td style="text-align: center; font-family: verdana; font-size: 14px; font-weight: bold; color: blue;">Page en construction, merci de votre compréhension !</td></tr>
+			<tr><td style="text-align: center;"><img src="construction.jpg" /></td></tr>
+			<tr><td style="text-align: center;"><a href="http://campus.ec-nantes.fr">SdE</a></td></tr>
+		</table>
+	</body>
+</html>
